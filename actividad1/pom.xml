@@ -116,7 +116,8 @@
                         <configuration>
                             <xsdOptions>
                                 <xsdOption>
-                                    <xsd>${basedir}/src/main/resources/calculadora.xsd</xsd>
+                                    <xsd>${project.basedir}/src/main/resources/calculadora.xsd</xsd>
+                                <packagename>com.example.demo</packagename>
                                 </xsdOption>
                             </xsdOptions>
                         </configuration>
