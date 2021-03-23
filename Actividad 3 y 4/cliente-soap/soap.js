@@ -3,8 +3,8 @@ var mensaje = '<?xml version="1.0" encoding="utf-8"?>' +
 '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/' +
 '<Body>' +
 '<SumarRequest>' +
-'<a>4</a>' +
-'<b>2</b>' +
+'<element name="a" type="int">' +
+'<element name="b" type="int">' +
 '</SumarRequest>' +
 '</Body>' +
 '</Envelope>';
