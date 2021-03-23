@@ -12,7 +12,7 @@ var mensaje = '<?xml version="1.0" encoding="utf-8"?>' +
 
 function soap() {
     // alert('hola')
-    axios.post('http://localhost:8080/ws/calculadora/', mensaje,{
+    axios.post('http://localhost:8080/ws/calculadora', mensaje,{
         headers:{
             'Content-Type' : 'text/xml'
         }
