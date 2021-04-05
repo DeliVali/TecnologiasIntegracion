@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.example.org/alumnos" 
+    xmlns:tns="http://www.example.org/alumnos" elementFormDefault="qualified">
+    
+
+<element name="AlumnoRequest">
+<complexType>
+<sequence>
+                <element name="matricula" type="string"></element>
+                <element name="contraseña" type="string"></element>
+            </sequence>
+</complexType>
+</element>
+<element name="AlumnoResponse">
+        <complexType>
+            <sequence>
+                <element name="materia1" type="double"></element>
+                <element name="materia2" type="double"></element>
+                <element name="materia3" type="double"></element>
+                <element name="promedio" type="double"></element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

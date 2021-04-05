@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+
+
+<body>
+<!--<form action="http://localhost:8080/ws/alumnos" method="POST">-->
+    <form>
+<label for="matricula"> Ingresa tu matricula</label>
+<input type="text" id="matricula">
+<br>
+<label for="contraseña"> Ingresa tu contraseña</label>
+<input type="text" id="contraseña">
+<br>
+<label for="materia1">Materia 1: </label>
+<input type="text" id="materia1">
+<br>
+<br>
+<label for="materia2">Materia 2: </label>
+<input type="text" id="materia2">
+<br>
+<br>
+<label for="materia3">Materia 3: </label>
+<input type="text" id="materia3">
+<br>
+<br>
+<label for="promedio">Promedio: </label>
+<input type="text" id="promedio">
+<br>
+<input type="button" value="Hacer Petición " onclick="soap()">
+
+</form>
+
+    <script src="soap.js"></script>
+</body>
+</html>
